@@ -22,7 +22,10 @@ export class App extends Component {
     return (
       <Container>
         <Section title="Please leave feedback">
-          <FeedbackOptions />
+          <FeedbackOptions
+            onLeaveFeedback={this.updateFeedback}
+            options={['good', 'neutral', 'bad']}
+          />
         </Section>
       </Container>
     );
