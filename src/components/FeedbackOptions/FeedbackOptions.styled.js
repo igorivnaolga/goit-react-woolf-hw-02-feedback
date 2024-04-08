@@ -13,9 +13,8 @@ export const Button = styled.button`
   font-size: 20px;
   padding: 5px;
   border-radius: 10px;
-  border: none;
-  background-color: #dee3e8;
-  box-shadow: 0 5px 10px #dee3e8;
+  border: 1px solid #dee3e8;
+  box-shadow: 0 2px 5px #dee3e8;
 
   &:hover,
   &:focus {
